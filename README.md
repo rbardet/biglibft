@@ -1,1 +1,2 @@
-elle a bien mangé la libft ![Homer](images/homer.jpeg)
+elle a bien mangé la libft
+![Homer](images/homer.jpeg)
