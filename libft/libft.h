@@ -6,7 +6,7 @@
 /*   By: rbardet- <rbardet-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 05:33:10 by rbardet-          #+#    #+#             */
-/*   Updated: 2025/03/13 15:30:29 by rbardet-         ###   ########.fr       */
+/*   Updated: 2025/03/28 16:34:29 by rbardet-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,5 +104,6 @@ void				*ft_realloc(void *ptr, size_t old_size, size_t new_size);
 char				*ft_strcat(char *dest, const char *src);
 char				*ft_strstr(const char *haystack, const char *needle);
 char				*ft_strtok(char *s, const char *delim);
+char				**copy_tab(char **src);
 
 #endif
