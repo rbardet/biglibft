@@ -6,11 +6,27 @@
 /*   By: rbardet- <rbardet-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 12:17:19 by rbardet-          #+#    #+#             */
-/*   Updated: 2024/10/22 12:58:34 by rbardet-         ###   ########.fr       */
+/*   Updated: 2025/03/28 16:39:57 by rbardet-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+int	ft_isdigital(char *c)
+{
+	int	i;
+
+	i = 0;
+	if (!c)
+		return (0);
+	while (c[i])
+	{
+		if (!ft_isdigit(c[i]))
+			return (0);
+		i++;
+	}
+	return (1);
+}
 
 int	ft_isdigit(int c)
 {
