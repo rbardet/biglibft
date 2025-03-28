@@ -17,12 +17,13 @@ char	**copy_tab(char **src)
 	char	**dest;
 	int		i;
 
-	i = 0;
+	i = tab_size(src);
 	if (!src)
 		return (NULL);
 	dest = malloc(sizeof(char *) * (i + 1));
 	if (!dest)
 		return (NULL);
+	i = 0;
 	while (src[i])
 	{
 		dest[i] = ft_strdup(src[i]);
